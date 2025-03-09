@@ -1,0 +1,19 @@
+.navStyling{
+    ul{
+        display: flex;
+        justify-content: space-between;
+
+        li{
+            list-style: none;
+
+            a{
+                color: black;
+                text-decoration: none;
+            }
+
+            .activeLink{
+                color: red;
+            }
+        }
+    }
+}
